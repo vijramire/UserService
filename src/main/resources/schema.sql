@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS USERPOJO;
+CREATE TABLE USERPOJO (USER_ID INT NOT NULL, USER_NAME VARCHAR(25) NOT NULL,DEPT_ID INT NOT NULL);
+
+insert into USERPOJO values(1,'Vijay',1);
+insert into USERPOJO values(2,'PP',2);
+insert into USERPOJO values(3,'Praveen',3);
